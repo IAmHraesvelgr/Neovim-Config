@@ -155,6 +155,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\akahn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["transparent.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\akahn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\transparent.nvim",
+    url = "https://github.com/xiyaowong/transparent.nvim"
+  },
   undotree = {
     loaded = true,
     path = "C:\\Users\\akahn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",

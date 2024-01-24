@@ -45,4 +45,5 @@ use {
     'nvim-tree/nvim-web-devicons', -- optional
   },
 }
+use('xiyaowong/transparent.nvim')
 end)
