@@ -54,4 +54,8 @@ use {
     require"startup".setup({theme = "evil"})
   end
 }
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+}
 end)
