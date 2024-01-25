@@ -54,8 +54,7 @@ use {
     require"startup".setup({theme = "evil"})
   end
 }
-use {
-  'nvim-lualine/lualine.nvim',
-  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
-}
+use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+use {'andweeb/presence.nvim'}
+use {'tamton-aquib/staline.nvim'}
 end)
