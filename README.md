@@ -9,3 +9,5 @@ To get this config for youself just type :
 
 **Linux and MacOS**
 ``git clone https://github.com/IAmHraesvelgr/Neovim-Config ~/.config/nvim --depth 1``
+
+**PS : Don't forget to source packer.lua and then run PackerSync !**
