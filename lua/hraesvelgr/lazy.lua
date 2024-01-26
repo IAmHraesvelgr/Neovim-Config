@@ -44,4 +44,5 @@ require("lazy").setup({
   'akinsho/bufferline.nvim',
   'andweeb/presence.nvim',
   'nvim-lualine/lualine.nvim',
+  'cohama/lexima.vim'
 })
