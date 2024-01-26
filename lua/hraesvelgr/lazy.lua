@@ -21,7 +21,7 @@ require("lazy").setup({
     vim.cmd('colorscheme catppuccin')
   end }),
 
-  ({ 'nvim-treesitter/nvim-treesitter', {run =':TSUpdate'} }),
+  'nvim-treesitter/nvim-treesitter',
   'nvim-treesitter/playground',
   'theprimeagen/harpoon',
   'mbbill/undotree',
