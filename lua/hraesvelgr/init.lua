@@ -1,3 +1,3 @@
 require("hraesvelgr.remap")
 require('hraesvelgr.set')
-require('hraesvelgr.packer')
+require('hraesvelgr.lazy')
