@@ -16,10 +16,11 @@ require("lazy").setup({
   'nvim-telescope/telescope.nvim', tag = '0.1.5',
   'nvim-lua/plenary.nvim',
 
-  ({ "catppuccin/nvim", as = "catppuccin",
+  { "catppuccin/nvim", as = "catppuccin",
   config = function()
     vim.cmd('colorscheme catppuccin')
-  end }),
+  end
+  },
 
   'nvim-treesitter/nvim-treesitter',
   'nvim-treesitter/playground',
@@ -37,12 +38,24 @@ require("lazy").setup({
   'nvim-tree/nvim-web-devicons',
   'xiyaowong/transparent.nvim',
 
-  ({ "startup-nvim/startup.nvim", config = function()
+  {
+    "startup-nvim/startup.nvim",
+    config = function()
     require("startup").setup({theme = "evil"})
-  end }),
+    end
+  },
 
   'akinsho/bufferline.nvim',
   'andweeb/presence.nvim',
   'nvim-lualine/lualine.nvim',
-  'cohama/lexima.vim'
+  'cohama/lexima.vim',
+  {
+    'windwp/nvim-ts-autotag',
+    ft = {
+      "javascript", "html", "css", "javascriptreact", "typescript", "typescriptreact"
+    },
+    config = function ()
+      require('nvim-ts-autotag').setup()
+    end
+  },
 })
