@@ -46,8 +46,6 @@ require("lazy").setup({
   },
 
   'andweeb/presence.nvim',
-  'tamton-aquib/staline.nvim',
-  'cohama/lexima.vim',
   {
     'windwp/nvim-ts-autotag',
     ft = {
@@ -70,4 +68,6 @@ require("lazy").setup({
   },
   "Pocco81/auto-save.nvim",
   'nvim-lualine/lualine.nvim',
+  "windwp/nvim-autopairs",
+  "akinsho/bufferline.nvim"
 })
