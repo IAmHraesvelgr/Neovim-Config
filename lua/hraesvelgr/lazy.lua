@@ -47,7 +47,6 @@ require("lazy").setup({
 
   'andweeb/presence.nvim',
   'tamton-aquib/staline.nvim',
-  'nvim-lualine/lualine.nvim',
   'cohama/lexima.vim',
   {
     'windwp/nvim-ts-autotag',
@@ -70,4 +69,5 @@ require("lazy").setup({
     }
   },
   "Pocco81/auto-save.nvim",
+  'nvim-lualine/lualine.nvim',
 })
