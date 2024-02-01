@@ -69,5 +69,6 @@ require("lazy").setup({
   "Pocco81/auto-save.nvim",
   'nvim-lualine/lualine.nvim',
   "windwp/nvim-autopairs",
-  'akinsho/bufferline.nvim'
+  'akinsho/bufferline.nvim',
+  "karb94/neoscroll.nvim"
 })
