@@ -2,8 +2,8 @@
 
 vim.opt.nu = true
 
-vim.opt.laststatus = 2
-vim.opt.showtabline = 3
+-- vim.opt.laststatus = 2
+-- vim.opt.showtabline = 2
 
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
