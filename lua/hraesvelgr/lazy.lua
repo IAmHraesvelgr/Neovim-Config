@@ -37,14 +37,14 @@ require("lazy").setup({
   'nvim-tree/nvim-tree.lua',
   'nvim-tree/nvim-web-devicons',
   'xiyaowong/transparent.nvim',
-
   {
     "startup-nvim/startup.nvim",
-    config = function()
-    require("startup").setup({theme = "evil"})
+    config = function ()
+      require('startup').setup({
+          theme = "evil",
+    })
     end
   },
-
   'andweeb/presence.nvim',
   {
     'windwp/nvim-ts-autotag',
