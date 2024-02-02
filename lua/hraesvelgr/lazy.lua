@@ -70,5 +70,5 @@ require("lazy").setup({
   'nvim-lualine/lualine.nvim',
   "windwp/nvim-autopairs",
   'akinsho/bufferline.nvim',
-  "karb94/neoscroll.nvim"
+  "folke/zen-mode.nvim",
 })
