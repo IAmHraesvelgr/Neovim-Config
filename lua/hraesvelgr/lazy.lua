@@ -71,8 +71,10 @@ require("lazy").setup({
   "windwp/nvim-autopairs",
   'akinsho/bufferline.nvim',
   "folke/zen-mode.nvim",
-  "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
-  config = function()
-    require("lsp_lines").setup()
-  end,
+  {
+    "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+    config = function()
+      require("lsp_lines").setup()
+    end,
+  }
 })
