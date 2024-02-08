@@ -10,7 +10,7 @@ CMD
 ``git clone https://github.com/IAmHraesvelgr/Neovim-Config %USERPROFILE%\AppData\Local\nvim --depth 1``
 
 POWERSHELL
-``git clone https://github.com/IAmHraesvelgr/Neovim-Config $Env:USERPROFILE\AppData\Local\nvim --depth 1``
+``git clone https://github.com/IAmHraesvelgr/Neovim-Config $ENV:USERPROFILE\AppData\Local\nvim --depth 1``
 
 
 **Linux and MacOS**
