@@ -76,4 +76,8 @@ require("lazy").setup({
   "windwp/nvim-autopairs",
   'akinsho/bufferline.nvim',
   "folke/zen-mode.nvim",
+  {
+    "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}
+  },
+  "lewis6991/gitsigns.nvim",
 })
