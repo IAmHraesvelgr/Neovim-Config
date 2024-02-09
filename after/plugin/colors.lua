@@ -9,6 +9,7 @@ require("catppuccin").setup({
         notify = true,
         telescope = true,
         noice = true,
-        mason = true
+        mason = true,
+        indent_blankline = { enabled = true },
     }
 })
