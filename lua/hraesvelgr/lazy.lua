@@ -80,5 +80,8 @@ require("lazy").setup({
     "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {}
   },
   "lewis6991/gitsigns.nvim",
-  "stevearc/dressing.nvim"
+  "stevearc/dressing.nvim",
+  {
+    'akinsho/toggleterm.nvim', version = "*", config = true
+  }
 })
