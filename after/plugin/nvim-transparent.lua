@@ -10,4 +10,5 @@ require("transparent").setup({ -- Optional, you don't have to run setup.
   exclude_groups = {}, -- table: groups you don't want to clear
 })
 
-vim.cmd [[TransparentDisable]]
+vim.keymap.set("n", "<leader>te", vim.cmd [[TransparentEnable]])
+vim.keymap.set("n", "<leader>td", vim.cmd [[TransparentDisable]])
