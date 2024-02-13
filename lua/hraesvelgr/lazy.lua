@@ -96,5 +96,6 @@ require("lazy").setup({
   "stevearc/dressing.nvim",
   {
     'akinsho/toggleterm.nvim', version = "*", config = true
-  }
+  },
+  "RRethy/base16-nvim"
 })

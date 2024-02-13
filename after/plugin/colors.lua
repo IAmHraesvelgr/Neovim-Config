@@ -1,15 +1,26 @@
-vim.cmd.colorscheme("catppuccin")
+require('base16-colorscheme').with_config({
+    telescope = true,
+    indentblankline = true,
+    notify = true,
+    cmp = true,
+})
 
-require("catppuccin").setup({
-    integrations = {
-        cmp = true,
-        gitsigns = true,
-        nvimtree = true,
-        treesitter = true,
-        notify = true,
-        telescope = true,
-        noice = true,
-        mason = true,
-        indent_blankline = { enabled = true },
-    }
+local colorscheme = require('catppuccin')
+colorscheme.setup({
+  base00 = "#1E1D2D",
+  base01 = "#282737",
+  base02 = "#2f2e3e",
+  base03 = "#383747",
+  base04 = "#414050",
+  base05 = "#bfc6d4",
+  base06 = "#ccd3e1",
+  base07 = "#D9E0EE",
+  base08 = "#F38BA8",
+  base09 = "#F8BD96",
+  base0A = "#FAE3B0",
+  base0B = "#ABE9B3",
+  base0C = "#89DCEB",
+  base0D = "#89B4FA",
+  base0E = "#CBA6F7",
+  base0F = "#F38BA8",
 })
